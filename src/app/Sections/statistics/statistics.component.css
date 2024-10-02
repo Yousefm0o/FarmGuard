@@ -1,0 +1,106 @@
+.Row {
+  width: 1280px;
+  margin: 40px auto 100px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.Row .sec {
+  flex-basis: 40%;
+  text-align: center;
+  position: relative;
+  border-radius: 25px;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.Row .farmer {
+  background-image: url(../../../assets/imgs/farmer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.Row .argonomist {
+  background-image: url(../../../assets/imgs/agronomist.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sec .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #37252540;
+  border-radius: 25px;
+}
+
+.sec .include {
+  padding: 10px 20px;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.v-bar {
+  width: 2px;
+  height: 400px;
+  background-color: #204E51;
+}
+
+.Row .sec h3 {
+  margin: 20px auto 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  align-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+
+.Row .argonomist h3 {
+  width: 240px;
+}
+
+
+.Row-2 {
+  width: 1280px;
+  margin: 80px auto 0px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.Row-2 img {
+  width: 800px;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0px 0px 8px 1px #204E51;
+
+}
+
+.Row-2 h6 {
+  margin: 0px auto;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #000;
+  color: #fff;
+  width: 300px;
+  height: 30px;
+  align-content: center;
+  border-radius: 5px;
+}

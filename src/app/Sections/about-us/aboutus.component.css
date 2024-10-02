@@ -1,0 +1,23 @@
+.Row {
+  width: 1280px;
+  margin: 40px auto 0px;
+}
+
+p {
+  width: 600px;
+  margin: -20px auto 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+p span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+video {
+  display: block;
+  margin: 0px auto;
+  width: 700px;
+}

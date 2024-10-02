@@ -1,0 +1,35 @@
+.row {
+  width: 1280px;
+  margin: 40px auto 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 70px;
+}
+
+.block {
+  background-color: #fff;
+  max-width: 250px;
+  height: 280px;
+  border-radius: 20px;
+  padding: 30px;
+  color: #204E51;
+  box-shadow: 0px 5px 8px 1px #6a6a6a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.block i {
+  font-size: 55px;
+  display: block;
+  margin: 15px auto;
+}
+
+.block h6 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px auto;
+}

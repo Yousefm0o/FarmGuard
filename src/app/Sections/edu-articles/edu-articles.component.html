@@ -1,0 +1,24 @@
+<div class="contain">
+  <div class="Row">
+    <div class="btns">
+      <button type="button" (click)="previous()" [ngClass]="{'inactive': currentPage == 1}"><i class="fa-solid fa-arrow-left"></i>Previous</button>
+      <button type="button" (click)="next()" [ngClass]="{'inactive': currentPage == articles.length}">Next<i class="fa-solid fa-arrow-right" ></i></button>
+    </div>
+
+    <div class="article">
+      <h2>{{ pagedArticle.name }}</h2>
+      <div class="content">
+        <h5>{{ pagedArticle.title }}</h5>
+        <p>{{ pagedArticle.intro }}</p>
+        <span class="key-points">Key Points:</span>
+        <ul>
+          <li *ngFor="let point of pagedArticle.points">
+            <span class="point">{{ point.point }}</span>
+            {{ point.desc }}
+          </li>
+        </ul>
+        <p class="con"><span>Conclusion:</span> {{ pagedArticle.conclusion }}</p>
+      </div>
+    </div>
+  </div>
+</div>

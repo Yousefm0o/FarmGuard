@@ -1,0 +1,30 @@
+.Row {
+  width: 1200px;
+  margin: 0px auto 80px;
+}
+
+h2 button {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+h2 button i {
+  width: 50px;
+  text-align: center;
+  margin-right: 10px;;
+}
+
+.accordion-body {
+  display: flex;
+}
+
+.accordion-body img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.accordion-body ul li {
+  margin: 20px;
+  font-size: 17px;
+}

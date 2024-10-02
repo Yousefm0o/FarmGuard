@@ -1,0 +1,80 @@
+section {
+  background-image: url(../../../assets/imgs/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.row {
+  height: calc(88vh + 3px);
+  width: 1280px;
+  margin: 0px auto;
+}
+
+.bio {
+  margin: 100px auto 0px auto;
+  width: 800px;
+  height: max-content;
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.sub-bio {
+  margin: 0px auto;
+  margin-top: -70px;
+  width: 800px;
+  height: max-content;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.lower {
+  margin: -50px auto;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px
+}
+
+.lower button {
+  border-radius: 10px;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  box-sizing: border-box;
+  height: 45px;
+}
+
+.lower button:hover {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.lower button.first {
+  width: 130px;
+  background-color: #204e51;
+  transition: .2s;
+}
+
+.lower button.second {
+  width: 150px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: .2s;
+}
+
+.lower button.first:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.lower button.second:hover {
+  background-color: #204e51;
+  border: none;
+}
